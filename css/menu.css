@@ -1,0 +1,52 @@
+
+.menu__header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+    padding-left: 6.5rem;
+
+}
+.menu__header-izq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-right: 5rem;
+}
+
+.menu__buscador{
+    border:0;
+    background-color: #F5F5F5;
+    padding: 0.5rem;
+    border: 1px black solid;
+    border-radius: 20px;
+    
+}
+.menu__busqueda{
+    background-color: #F5F5F5;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    padding-right: 6rem;
+}
+.menu__lupa{
+    background-image: url("/assets/lupa.png");
+    background-position: center;
+    background-size: contain;
+    border:0;
+}
+.menu__btn{
+    border: 1px solid #2A7AE4;
+    padding: 1rem;
+    width: 182px;
+    color: #2A7AE4;
+    background-color: white;
+}
+.menu__header-der{
+    padding-right:5.5rem;
+
+}

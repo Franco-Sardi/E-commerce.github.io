@@ -1,0 +1,28 @@
+.login__formulario{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 423px ;
+    padding: 1rem;
+   
+}
+
+.box{
+    height: 63.13px;
+    padding-left: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.login__btn{
+    background-color: #2A7AE4;
+    border: none;
+}

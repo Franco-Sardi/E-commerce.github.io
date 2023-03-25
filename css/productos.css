@@ -1,0 +1,97 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    padding-bottom: 4rem;
+    
+}
+.productos__div
+{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.productos__title{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.productos__arrow{
+    vertical-align: middle;
+    
+}
+
+.productos__h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.8rem;
+}
+
+.productos__name{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+
+.productos__price{
+    font-family: 'raleway';
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.productos__ver{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+.productos__title2{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.menu__btn2{
+   width: 136px;
+   background-color: #2A7AE4;
+   height: 51px;
+   color: white;
+   border: none;
+   border-radius: 0;
+
+    
+}
+
+.productos__h22{
+    font-size: 2rem;
+    font-weight:600;
+    font-style:inherit;
+    padding-bottom: 0.8rem;
+}
+
+.productos__editar{
+   
+    width: 80%;
+    position:absolute;
+    display: flex;
+justify-content: space-between;
+    }
+
+.productos__edit{
+    display:flexbox;
+    margin-left:5.8rem;
+    
+}
+
