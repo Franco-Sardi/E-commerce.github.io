@@ -23,9 +23,9 @@
         <section class="menu">
             <header class="menu__header">
                 <div class="menu__header-izq">
-                    <div class="logo"><img src="../assets/Logo-img.png" alt="Logo de AluraGeek"></div>
+                    <div class="logo"><a href="/index.html"><img src="../assets/Logo-img.png" alt="Logo de AluraGeek"></a></div>
     
-                    <form action="" method="post" target="_blank">
+                    <form action="" method="post" target="_blank" >
                         <div class="menu__buscador">
                         <input type="search" class="menu__busqueda" name="busquedamusica" placeholder="¿Qué desea buscar?">
                         <input class="menu__lupa" type="submit" value="    " >
@@ -43,9 +43,10 @@
         <section class="login">
             <div class="login__formulario">
                 <h1 class="login__title">Iniciar Sesión</h1>
-                    <form action="" class="login__form">
-                        <input type="text" placeholder="Escriba su correo electrónico" class="box login__email">
-                        <input type="text" placeholder="Escriba su contraseña" class="box login__password">
+                    <form action="" class="login__form" data-form2>
+                        <input  name="email" id="email" class="box" type="email" placeholder="Email" required data-email >
+                        <input name="password" id="password" class="box" type="password" placeholder="Contraseña" 
+                        required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-password>
                         <button class="box login__btn">Entrar</button>
                     </form>   
             </div>
@@ -54,8 +55,8 @@
 
         <section class="contacto">
             <div class="contacto__container">
-                <div class="logo">
-                    <img src="../assets/Logo-img.png" alt="Logo de AluraGeek">
+                <div class="logo__contacto">
+                   <a href="/index.html"> <img src="../assets/Logo-img.png" alt="Logo de AluraGeek"></a>
                 </div>
     
                 <div class="contacto__links">
@@ -67,12 +68,12 @@
                     <a href="" class="contacto__link-text">Anúncie aquí</a>
                 </div>
     
-                <div class="contacto__formulario">
+                <div class="contacto__formulario" >
                     <h1 class="contacto__title">Hable con nosotros</h1>
-                    <form action="" class="contacto__form">
-                        <input type="text" placeholder="Nombre" class="contacto__name">
-                        <input type="text" placeholder="Escribe tu mensaje" class="contacto__msj">
-                        <button class="contacto__btn">Enviar Mensaje</button>
+                    <form action="" class="contacto__form" data-form3>
+                        <input type="text" name="nome" type="name" placeholder="Nombre" class="contacto__name" data-nome>
+                        <input type="text" name="mensaje" type="text" placeholder="Escribe tu mensaje" class="contacto__msj" data-mensaje>
+                        <button type="submit" class="contacto__btn">Enviar Mensaje</button>
                     </form>
                 </div>
             </div>
@@ -90,6 +91,10 @@
 
 
 
+    <script src="./js/app.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/registro-clientes.js"></script>
+    <script type="module" src="../controllers/registro-contacto.js"></script>
     
 </body>
 </html>

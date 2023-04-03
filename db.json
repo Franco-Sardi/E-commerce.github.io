@@ -1,11 +1,180 @@
 {
-    "perfil": [
-        {
-            "email": "Administrador@alura.com",
-            "password": "Admin123",
-            "id": "1"
-            
-        }
-    ]
-
+  "productos": [
+    {
+      "nombre": "Taza StarWars",
+      "id": "1",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/producto1.png",
+      "categoria": "StarWars"
+    },
+    {
+      "id": "2",
+      "nombre": "Muñeco Darth Vader",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_epRFE_hBNjo.png",
+      "categoria": "StarWars"
+    },
+    {
+      "id": "3",
+      "nombre": "Yoda",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_KeGToDVN0l4.png",
+      "categoria": "StarWars"
+    },
+    {
+      "id": "4",
+      "nombre": "Tsm-Troop",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_4OHkK555s1A.png",
+      "categoria": "StarWars"
+    },
+    {
+      "id": "5",
+      "nombre": "Baby Yoda",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_R8L1l9RN198.png",
+      "categoria": "StarWars"
+    },
+    {
+      "id": "6",
+      "nombre": "Kylo Ren",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_1VV1MRafd7A.png",
+      "categoria": "StarWars"
+    },
+    {
+      "id": "7",
+      "nombre": "Control Xbox",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_0POwK6iAiRQ.png",
+      "categoria": "Consola"
+    },
+    {
+      "id": "8",
+      "nombre": "Play 5",
+      "precio": "60",
+      "link": "http://127.0.0.1:5500/screens/productos.html",
+      "imagen": "/assets/unsplash_caNzzoxls8Q.png",
+      "categoria": "Consola"
+    },
+    {
+      "id": "9",
+      "nombre": "NES",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_ZV7lnfyQLmA.png",
+      "categoria": "Consola"
+    },
+    {
+      "id": "10",
+      "nombre": "Joy-Con",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_wa5z9o9fgjw.png",
+      "categoria": "Consola"
+    },
+    {
+      "id": "11",
+      "nombre": "Xbox serie x",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_Zjn4dT993-g.png",
+      "categoria": "Consola"
+    },
+    {
+      "id": "12",
+      "nombre": "Gameboy",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_k-xYhI3-gJM.png",
+      "categoria": "Consola"
+    },
+    {
+      "id": "13",
+      "nombre": "Remera Deutz",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_fMP-oCze3AY.png",
+      "categoria": "Diversos"
+    },
+    {
+      "id": "14",
+      "nombre": "Remera playstation",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_bUgaIaZysH0.png",
+      "categoria": "Diversos"
+    },
+    {
+      "id": "15",
+      "nombre": "Sonic",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_sYVY_ZKwaxU.png",
+      "categoria": "Diversos"
+    },
+    {
+      "id": "16",
+      "nombre": "Despertador",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_jMT6BrgBuXU.png",
+      "categoria": "Diversos"
+    },
+    {
+      "id": "#17",
+      "nombre": "VR",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_MxVkWPiJALs.png",
+      "categoria": "Diversos"
+    },
+    {
+      "id": "18",
+      "nombre": "Pikachu",
+      "precio": "60",
+      "link": "#",
+      "imagen": "/assets/unsplash_r27umXAelDc.png",
+      "categoria": "Diversos"
+    },
+    {
+      "imagen": "/assets/producto-0.png",
+      "categoria": "Starwars",
+      "nombre": "MArtín",
+      "precio": "100",
+      "id": "51a04b16-1878-4a97-84c6-6afe261cbe83",
+      "descripcion": "kajsadsajdas dasjd asjd sa"
+    }
+  ],
+  "clientes": [
+    {
+      "email": "francosardi@gmail.com",
+      "password": "Franco2004",
+      "id": "1"
+    }
+  ],
+  "contactos": [
+    {
+      "id": "1",
+      "nombre": "Francisco",
+      "mensaje": "Holaaaa"
+    },
+    {
+      "nome": "",
+      "mensaje": "",
+      "id": "ucJAhWQ"
+    },
+    {
+      "nome": "Fernando",
+      "mensaje": "Helloo",
+      "id": "l9FSi6f"
+    }
+  ]
 }

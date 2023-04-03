@@ -30,19 +30,18 @@
     <section class="menu">
         <header class="menu__header">
             <div class="menu__header-izq">
-                <div class="logo"><img src="assets/Logo-img.png" alt="Logo de AluraGeek"></div>
+                <a href="index.html"><div class="logo"><img class="logos" src="assets/Logo-img.png" alt="Logo de AluraGeek"></div></a>
 
                 <form action="" method="post" target="_blank">
                     <div class="menu__buscador">
-                    <input type="search" class="menu__busqueda" name="busquedamusica" placeholder="¿Qué desea buscar?">
+                    <input i type="search" class="menu__busqueda" name="busquedamusica" placeholder="¿Qué desea buscar?">
                     <input class="menu__lupa" type="submit" value="    " >
                     </div>
                 </form>
+                
             </div>
             <div class="menu__header-der">
-                <button class="menu__btn">
-                    Login
-                </button>
+                <a href="./screens/login.html"> <button  class="menu__btn"> Login </button> </a>
             </div>
         </header>
     </section>
@@ -51,9 +50,9 @@
            <div class="banner__container">
             <h1 class="banner__h1">Abril Promocional </h1>
             <h3 class="banner__h3">Productos seleccionados con 33% de descuento</h3>
-            <button class="banner__btn">
+           <a href="index.html#consolas"> <button class="banner__btn">
                 Ver Consolas
-            </button>
+            </button></a>
            </div>
         </div>
     </section>
@@ -106,7 +105,7 @@
         </div>
     </section>
 
-    <section class="productos">
+    <section class="productos" id="consolas">
         <div class="productos__title">
             <h2 class="productos__h2">Consolas</h2>
             <a href="#" class="productos__ver">
@@ -204,8 +203,9 @@
 
     <section class="contacto">
         <div class="contacto__container">
-            <div class="logo">
-                <img src="assets/Logo-img.png" alt="Logo de AluraGeek">
+           
+            <div class="logo__contacto">
+               <a href="index.html"> <img src="assets/Logo-img.png" alt="Logo de AluraGeek"></a>
             </div>
 
             <div class="contacto__links">
@@ -216,13 +216,12 @@
                 <a href="" class="contacto__link-text">Quiero ser franquiciado</a>
                 <a href="" class="contacto__link-text">Anúncie aquí</a>
             </div>
-
-            <div class="contacto__formulario">
+            <div class="contacto__formulario" >
                 <h1 class="contacto__title">Hable con nosotros</h1>
-                <form action="" class="contacto__form">
-                    <input type="text" placeholder="Nombre" class="contacto__name">
-                    <input type="text" placeholder="Escribe tu mensaje" class="contacto__msj">
-                    <button class="contacto__btn">Enviar Mensaje</button>
+                <form action="" class="contacto__form" data-form3>
+                    <input type="text" name="nome" type="name" placeholder="Nombre" class="contacto__name" data-nome>
+                    <input type="text" name="mensaje" type="text" placeholder="Escribe tu mensaje" class="contacto__msj" data-mensaje>
+                    <button type="submit" class="contacto__btn">Enviar Mensaje</button>
                 </form>
             </div>
         </div>
@@ -235,6 +234,8 @@
     </section>
 
 </div>
+<script type="module" src="../controllers/registro-contacto.js"></script>
+
 </body>
 
 </html>

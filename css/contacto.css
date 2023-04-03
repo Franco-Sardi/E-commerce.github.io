@@ -51,7 +51,6 @@
 
 
 
-
 .contacto__btn{
     width:  144px;
     height: 51px;
@@ -59,3 +58,59 @@
     border: none;
     
 }
+
+@media screen and (max-width: 1270px){
+  
+    .contacto__container{
+        padding: 0%;
+        justify-content: space-evenly;
+    }
+    .contacto__formulario{
+        padding-left:1rem ;
+    }
+    .logo__contacto{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    }
+
+    @media screen and (max-width: 1100px){
+  
+        .contacto__container{
+            padding: 0%;
+            justify-content: space-evenly;
+        }
+        .contacto__name{
+            width: 300px;
+         }
+         
+         .contacto__msj{
+             width:  300px;
+         
+         }
+        }
+
+        
+    @media screen and (max-width: 728px){
+        .logo__contacto{
+            display: none;
+        }
+        
+        
+        }
+
+            
+        @media screen and (max-width: 500px){
+            .contacto__container{
+                padding: 0%;
+            }
+            .contacto__name{
+                width: 200px;
+             }
+             
+             .contacto__msj{
+                 width:  200px;
+             
+             }
+            }
+            

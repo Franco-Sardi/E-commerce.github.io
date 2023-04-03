@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/login.css">
     <!--Link Css__contacto-->
     <link rel="stylesheet" href="../css/contacto.css">
-    <title>Login</title>
+    <title>Nuevo Producto</title>
 </head>
 <body>
 
@@ -23,7 +23,7 @@
         <section class="menu">
             <header class="menu__header">
                 <div class="menu__header-izq">
-                    <div class="logo"><img src="../assets/Logo-img.png" alt="Logo de AluraGeek"></div>
+                    <div class="logo"> <a href="/index.html"><img src="../assets/Logo-img.png" alt="Logo de AluraGeek"></a></div>
     
                     <form action="" method="post" target="_blank">
                         <div class="menu__buscador">
@@ -41,15 +41,15 @@
         </section>
 
         <section class="login">
-            <div class="login__formulario">
+            <div class="login__formulario2">
                 <h1 class="login__title">Agregar Nuevo Producto</h1>
-                    <form action="" class="login__form" style="width: 559px;">
-                        <input type="text" placeholder="Url de imagen" class="box login__email">
-                        <input type="text" placeholder="Categoría" class="box login__password">
-                        <input type="text" placeholder="Nombre del producto" class="box login__email">
-                        <input type="text" placeholder="Precio del producto" class="box login__password">
-                        <input type="text" placeholder="Descripción del producto" class="box login__email" style="height: 82px;">
-                        <button class="box login__btn">Agregar Producto</button>
+                    <form  action="" class="login__form" data-form>
+                        <input type="text" placeholder="Url de imagen" class="box" data-img >
+                        <input type="text" placeholder="Categoría" class="box" data-categoria>
+                        <input type="text" placeholder="Nombre del producto" class="box" data-product>
+                        <input type="number" placeholder="Precio del producto" class="box" data-precio>
+                        <input type="text" placeholder="Descripción del producto" class="box" style="height: 82px;" data-descripcion>
+                        <button type="submit" class="box login__btn">Agregar Producto</button>
                     </form>   
             </div>
         </section>
@@ -57,8 +57,8 @@
 
         <section class="contacto">
             <div class="contacto__container">
-                <div class="logo">
-                    <img src="../assets/Logo-img.png" alt="Logo de AluraGeek">
+                <div class="logo__contacto">
+                   <a href="/index.html"> <img src="../assets/Logo-img.png" alt="Logo de AluraGeek"></a>
                 </div>
     
                 <div class="contacto__links">
@@ -70,12 +70,12 @@
                     <a href="" class="contacto__link-text">Anúncie aquí</a>
                 </div>
     
-                <div class="contacto__formulario">
+                <div class="contacto__formulario" >
                     <h1 class="contacto__title">Hable con nosotros</h1>
-                    <form action="" class="contacto__form">
-                        <input type="text" placeholder="Nombre" class="contacto__name">
-                        <input type="text" placeholder="Escribe tu mensaje" class="contacto__msj">
-                        <button class="contacto__btn">Enviar Mensaje</button>
+                    <form action="" class="contacto__form" data-form3>
+                        <input type="text" name="nome" type="name" placeholder="Nombre" class="contacto__name" data-nome>
+                        <input type="text" name="mensaje" type="text" placeholder="Escribe tu mensaje" class="contacto__msj" data-mensaje>
+                        <button type="submit" class="contacto__btn">Enviar Mensaje</button>
                     </form>
                 </div>
             </div>
@@ -92,7 +92,9 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/registro-producto.controller.js"></script>
+    <script type="module" src="../controllers/registro-contacto.js"></script>
 
-    
 </body>
 </html>

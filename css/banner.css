@@ -3,10 +3,8 @@
     
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
-    height: 352px;
     background-image: url(/assets/banner.png);
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -48,3 +46,71 @@
     color: #FFFFFF;
     background-color: #2A7AE4;
 }
+@media screen and (max-width: 1000px){
+    .banner_div{
+        width:fit-content ;
+        height:max-content;
+     }
+     .menu__header-der {
+        padding-right: 0;
+    }
+    }
+    @media screen and (max-width: 728px){
+        .banner__h1{
+            
+            font-size: 2.5rem;
+           
+        }
+        .banner__h3{
+           
+            font-size: 1.2rem;
+            line-height: 26px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        }
+
+    /* @media screen and (max-width: 565px){
+        .banner__h1{
+            
+            font-size: 1rem;
+           
+        }
+        .banner__h3{
+           
+            font-size: 0.1rem;
+            line-height: 26px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        } */
+        @media screen and (max-width: 600px){
+            .banner__container{
+                padding: 0%;
+                padding-left: 1rem;
+                width:100%; 
+                height: 170px;
+            }
+            .banner__h1{
+                padding: 0%;
+                height: 57px;
+                font-size: 1.5rem;
+               
+            }
+            .banner__h3{
+                padding-bottom: 0.4rem;
+                padding-top: 0.9rem;
+
+               
+                font-size: 1.2rem;
+
+            }
+            .banner__btn{
+                font-size: 0.8rem;
+                padding: 10px;
+               
+            }
+            
+            }

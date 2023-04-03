@@ -6,10 +6,18 @@
     align-items: center;
     
 }
+.login__formulario2{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 .login__form{
     display: flex;
     flex-direction: column;
-    width: 423px ;
+    width: 500px ;
     padding: 1rem;
    
 }
@@ -26,3 +34,10 @@
     background-color: #2A7AE4;
     border: none;
 }
+
+
+@media screen and (max-width: 541px){
+    .login__form{
+        width: 300px;
+    }
+    }
