@@ -6,7 +6,7 @@ const crearNuevoProducto = (id, nombre, precio, imagen, categoria, link) => {
     const contenido = `
                             <div class="productos__edit">
                                 <button class= "productos__basura" id="${id}">
-                                <img src="/assets/basura.png" alt="Trash">
+                                <img src="../assets/basura.png" alt="Trash">
                                 </button>
                                 
                             </div>
